@@ -1,0 +1,50 @@
+#specialization-statistics {
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.chart-container-specialization {
+    position: relative;
+    margin: 0 auto;
+    height: 400px;
+    width: 80%;
+}
+
+#specialization-chart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.chart-container-specialization:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.chart-container-specialization .chart-legend {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.chart-container-specialization .chart-legend li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.chart-container-specialization .chart-legend li span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+

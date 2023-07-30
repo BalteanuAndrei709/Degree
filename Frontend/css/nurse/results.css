@@ -1,0 +1,130 @@
+/* Add some padding to the main section */
+main {
+    padding: 20px;
+  }
+  
+  /* Add a background color to the main section */
+  main {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add a border to the finish analysis list */
+  #nurse-finish-analysis-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Add some font and color changes to the text */
+  h1#must-complete {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  p.patient-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p.medic-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p.appointment-day {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  ul.required-analysis-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  li.required-analysis-item {
+    margin-bottom: 5px;
+  }
+  
+  input[type="file"].file-input {
+    margin-top: 10px;
+  }
+  
+  /* Add some font and color changes to the buttons */
+  button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Add a hover effect to the buttons */
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Add some icons to the buttons */
+  button.finish-button {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-checkmark-512.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 20px;
+    padding-left: 30px;
+  }
+  
+  button.download-button {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-download-512.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 20px;
+    padding-left: 30px;
+  }
+  
+  /* Add some animations to the elements */
+  .appointment {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Add some colors to the elements */
+  .required-analysis-item:nth-of-type(1) {
+    color: #ff6b6b;
+  }
+  
+  .required-analysis-item:nth-of-type(2) {
+    color: #48dbfb;
+  }
+  
+  .required-analysis-item:nth-of-type(3) {
+    color: #1dd1a1;
+  }
+  
+  .required-analysis-item:nth-of-type(4) {
+    color: #feca57;
+  }
+  

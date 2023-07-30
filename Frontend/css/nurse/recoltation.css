@@ -1,0 +1,96 @@
+/* Add some padding to the main section */
+main {
+    padding: 20px;
+  }
+  
+  /* Add a background color to the main section */
+  main {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add a border to the analysis list */
+  #nurse-analysis-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Add a hover effect to the analysis items */
+  .analysis:hover {
+    background-color: #e6e6e6;
+  }
+  
+  /* Add a download icon to the download buttons */
+  button:nth-of-type(2) {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-download-512.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 20px;
+    padding-left: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Add a finish icon to the finish buttons */
+  button:nth-of-type(1) {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-checkmark-512.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 20px;
+    padding-left: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Add a fade-in animation to the analysis items */
+  .analysis {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Add some font and color changes to the text */
+  h1#list {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Add some font and color changes to the buttons */
+  button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Add a hover effect to the buttons */
+  button:hover {
+    background-color: #0069d9;
+  }
+  

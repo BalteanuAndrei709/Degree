@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wellness Wave</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/include/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/include/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/patient/documents.css">
+    <script src="../js/includes/add_footer.js"></script>
+    <script src="../js/includes/add_header.js"></script>
+    <script src="../js/register/logout.js"></script>
+    <script src="../js/patients/patient-add-documents.js"></script>
+    <script src="../js/patients/patient-get-documents.js"></script>
+
+
+</head>
+
+<body>
+    <div id="header-placeholder"></div> <!-- Placeholder for the header content -->
+
+    <main>
+        <h1>Documentele tale</h1>
+        <div id="patient-document-list"></div>
+        
+
+        <div id="modal" style="display: none;">
+            <h2>Enter a new filename:</h2>
+            <input type="text" id="new-filename-input">
+            <button id="modal-save-button">Save</button>
+            <button id="modal-cancel-button">Cancel</button>
+        </div>
+
+        <form id="patient-add-document">
+            <label for="fileInput">Adauga documentul tau:</label>
+            <input type="file" id="patient-document" name="fileInput">
+            <button type="submit" id="add-patient-document"><i class="fas fa-plus"></i> Adauga document</button>
+        </form>
+        <br>
+    </main>
+
+
+    <div id="footer-placeholder"></div> <!-- Placeholder for the footer content -->
+
+</body>
+
+</html>

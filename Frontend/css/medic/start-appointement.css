@@ -1,0 +1,70 @@
+/* Define the font families to use */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Style the main element */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  /* Style the links inside the main element */
+  main a {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Add a hover effect to the links */
+  main a:hover {
+    color: #fff;
+    background-color: #333;
+  }
+  
+  /* Add an icon to each link */
+  main a[href="medic-patient-documents.html"]::before {
+    content: "\f15c";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+  }
+  
+  main a[href="medic-patient-consultations.html"]::before {
+    content: "\f073";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+  }
+  
+  main a[href="consultation.html"]::before {
+    content: "\f046";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+  }
+  
+  /* Add a responsive breakpoint for small screens */
+  @media (max-width: 768px) {
+    main a {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 20px;
+    }
+  }
+  

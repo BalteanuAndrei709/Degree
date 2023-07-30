@@ -1,0 +1,92 @@
+/* Center the main content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style the patient info divs */
+  .patient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the patient info icons */
+  .patient i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Style the patient info text */
+  .patient p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Style the patient info values */
+  .patient span {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  /* Style the patient info buttons */
+  .patient button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Add hover effect to patient info buttons */
+  .patient button:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Style the patient info divs on larger screens */
+  @media screen and (min-width: 768px) {
+    /* Spread the patient info divs across the screen */
+    #medic-all-patients-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  
+    /* Make the patient info divs take up equal space */
+    .patient {
+      flex-basis: 30%;
+    }
+  
+    /* Animate the patient info divs */
+    .patient {
+      transition: transform 0.3s ease;
+    }
+  
+    /* Add hover effect to patient info divs */
+    .patient:hover {
+      transform: translateY(-10px);
+    }
+  }
+ 
+  #name-patient {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+  }  

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wellness Wave</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/include/index.css">
+    <link rel="stylesheet" type="text/css" href="css/include/header.css">
+    <link rel="stylesheet" type="text/css" href="css/include/footer.css">
+
+    <script src="js/includes/add_footer.js"></script>
+    <script src="js/includes/add_header.js"></script>
+    <script src="js/includes/app_info.js"></script>
+    <script src="js/register/logout.js"></script>
+
+
+
+</head>
+
+<body>
+    <div id="header-placeholder"></div> <!-- Placeholder for the header content -->
+
+    <main class="main-page" >
+        
+        <br>
+        <h1 class="title">Sistemul tău medical digitalizat</h1>
+        <br>
+
+        <h2 class="secondary-title">Servicii</h2>
+        <br>
+        <div class="info grid">
+            <article>
+                <p class="article-title">Documente stocate digital</p>
+                <p class="text">Stocheaza documentele in format digital</p>
+            </article>
+
+            <article class="article-title">
+                <p class="article-title">Programari online</p>
+                <p class="text">Programeaza-te online pentru o consultatie</p>
+            </article>
+            <article class="article-title">
+                <p class="article-title">Automatizarea proceselor</p>
+                <p class="text">Eficientizarea timpului petrecut la spital</p>
+            </article>
+        </div>
+
+        <br>
+        <h2 class="secondary-title">Stats</h2>
+        <br>
+        <div class="info grid">
+            <div class="special">
+                <p class="article-title">Conturi active :</p>
+                <span id="numAccounts"></span>
+            </div>
+            <div class="special">
+                <p class="article-title">Pacienti inregistrati:</p>
+                <span id="numPatients"></span>
+            </div>
+            <div class="special">
+                <p class="article-title">Medici activi:</p>
+                <span id="numMedics"></span>
+            </div>
+        </div>
+
+
+
+
+        <script>
+            // Call the getData() function with the API URL and the displayNumStats() function as the callback
+            getData('http://localhost:8080/api/accounts/stats', displayNumStats);
+        </script>
+
+        <br>
+    </main>
+
+    <div id="footer-placeholder"></div> <!-- Placeholder for the footer content -->
+
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Main Styles */
+main {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f7;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #5c6ac4;
+}
+
+/* Document List Styles */
+#patient-document-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.document {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: relative;
+  width: calc(33.33% - 10px);
+}
+
+.document p {
+  margin: 0;
+}
+
+.document button {
+  background-color: #5c6ac4;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.document button:hover {
+  background-color: #424c99;
+}
+
+.document button:active {
+  transform: translateY(2px);
+}
+
+.document button:first-child {
+  margin-left: 0;
+}
+
+.document button:last-child {
+  margin-right: 0;
+}
+
+/* Add Document Form Styles */
+#patient-add-document label {
+  font-size: 16px;
+  color: #5c6ac4;
+}
+
+#patient-add-document input[type="file"] {
+  border: none;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 20px 0;
+  padding: 10px 20px;
+}
+
+#patient-add-document button[type="submit"] {
+  background-color: #5c6ac4;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#patient-add-document button[type="submit"]:hover {
+  background-color: #424c99;
+}
+
+#patient-add-document button[type="submit"]:active {
+  transform: translateY(2px);
+}
+
+#patient-add-document i {
+  margin-right: 5px;
+}
+
+.dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+  }
+  
+  .dialog-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .dialog h2 {
+    margin-top: 0;
+  }
+  
+  .dialog label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .dialog-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .dialog-buttons button {
+    margin-left: 10px;
+  }
+  
+  
+  

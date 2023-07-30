@@ -1,0 +1,259 @@
+/* Medical app consultation form style */
+
+/* Colors */
+:root {
+  --primary-color: #5d9cec; /* blue */
+  --secondary-color: #44b6ae; /* green */
+  --background-color: #efefef; /* light grey */
+  --text-color: #333; /* dark grey */
+}
+
+/* Fonts */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Form */
+#consultation-form {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--background-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Labels */
+label {
+  display: block;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* Inputs */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  color: var(--text-color);
+}
+
+/* Button */
+.btn {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.2s;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+}
+
+/* Icon */
+.icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* FontAwesome */
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+/* Example icon usage */
+.fa-check {
+  color: white;
+}
+
+/* Custom icon styles */
+.icon-heart {
+  color: var(--primary-color);
+}
+.icon-calendar {
+  color: var(--secondary-color);
+}
+#search-analysis {
+  border: 2px solid #777777;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  background-color: #ffffff;
+  width: 40%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#search-analysis:focus {
+  outline: none;
+  border-color: #0080ff;
+  box-shadow: 0px 2px 4px rgba(0, 128, 255, 0.2);
+}
+
+#search-results {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.analysi-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.analysi-result p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+}
+.search-add-button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0080ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.add-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0080ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-button:hover {
+  background-color: #0059b3;
+}
+
+.add-button:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 2px rgba(0, 128, 255, 0.5);
+}
+#all-categories {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.category {
+  margin-bottom: 30px;
+}
+
+.category h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.category-analysis {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.analysis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.analysis p {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.div-add-button {
+  display: flex;
+  align-items: center;
+}
+
+.add-button {
+  background-color: #f9a826;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #fca60c;
+}
+.recommended-analyses-wrapper {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+#recommended-analyses li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#recommended-analyses li p {
+  margin: 0;
+  font-weight: bold;
+}
+
+#recommended-analyses li button {
+  background-color: #483dd7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#recommended-analyses li button:hover {
+  background-color: #9c81ff;
+}
+
+#recommended-analyses li button:focus {
+  outline: none;
+}
+
+#recommended-analyses li p {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+main{
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 70px;
+  max-width: 1600px;
+  
+}

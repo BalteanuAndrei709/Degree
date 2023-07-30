@@ -1,0 +1,98 @@
+/* Set the background color and font family for the main element */
+main {
+  background-color: #f7f7f7;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Style the heading with a larger font size, bold font weight, and a line underneath */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+/* Add some padding and margin to the document list container */
+#medic-patient-document-list {
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* Style the document box with a border, shadow and padding */
+.document {
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 0px 5px #e0e0e0;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style the document ID with a bold font weight */
+.document p:first-of-type {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the download button with a background color, border, and hover effect */
+.document button {
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.document button:hover {
+  background-color: #1a5276;
+}
+
+/* Add some margin and padding to the main element */
+main {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px;
+  box-shadow: 0px 0px 10px #e0e0e0;
+  border-radius: 5px;
+}
+
+/* Add some style to the br tags */
+br {
+  margin-bottom: 20px;
+  display: block;
+  content: "";
+  line-height: 30px;
+  clear: both;
+}
+
+/* Add an icon for the download button using Font Awesome */
+.document button:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f019";
+  margin-right: 10px;
+}
+
+/* Style the document type and name with icons using Font Awesome */
+.document p:nth-of-type(2) {
+  margin-bottom: 10px;
+}
+
+.document p:nth-of-type(2):before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f15c";
+  margin-right: 5px;
+  color: #2980b9;
+}
+
+.document p:nth-of-type(3):before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f15b";
+  margin-right: 5px;
+  color: #2980b9;
+}

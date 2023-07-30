@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wellness Wave</title>
+    <link rel="stylesheet" type="text/css" href="css/include/header.css">
+    <link rel="stylesheet" type="text/css" href="css/include/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/services/age-stats.css">
+    <link rel="stylesheet" type="text/css" href="css/services/specialization-stats.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="js/services/gender-stats.js"></script>
+    <script src="js/services/age-stats.js"></script>
+    <script src="js/services/county-stats.js"></script>
+    <script src="js/services/specialization-stats.js"></script>
+    <script src="js/includes/add_footer.js"></script>
+    <script src="js/includes/add_header.js"></script>
+    <script src="js/register/logout.js"></script>
+
+
+</head>
+
+<body>
+    <div id="header-placeholder"></div> <!-- Placeholder for the header content -->
+
+    <main>
+        <h1>Statistici</h1>
+        <div id="age-statistics">>
+            
+            <h2>Statistici privind varsta persoanelor ce au facut programari</h2>
+            <div class="chart-container-age">
+                <canvas id="stats-age"></canvas>
+            </div>
+        </div>
+
+        <div id="specialization-statistics">
+            <h2>Statistici privind numarul de programari la fiecare specializare</h2>
+            <div class="chart-container-specialization">
+                <canvas id="specialization-chart"></canvas>
+            </div>
+        </div>
+
+        <div id="county-statistics">
+            <h2>Statistici privind judetele de unde provin pacientii</h2>
+            <div class="chart-container-county">
+                <canvas id="county-chart"></canvas>
+            </div>
+        </div>
+
+        <div id="gender-statistics">
+            <h2>Statistici privind judetele de unde provin pacientii</h2>
+            <div class="chart-container-gender">
+                <canvas id="gender-chart"></canvas>
+            </div>
+        </div>
+
+    </main>
+
+    <div id="footer-placeholder"></div> <!-- Placeholder for the footer content -->
+
+</body>
+
+</html>

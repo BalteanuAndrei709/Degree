@@ -1,0 +1,40 @@
+.my-main-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .my-link-class {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4da6ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .my-link-class:hover {
+    background-color: #0077b3;
+  }
+  
+  .my-link-class i {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  
+  /* Animation for the icons */
+  .my-link-class i {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .my-link-class:hover i {
+    transform: rotate(360deg);
+  }
+  

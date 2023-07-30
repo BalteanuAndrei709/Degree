@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wellness Wave</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+    <link rel="stylesheet" type="text/css" href="../css/include/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/include/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/include/account.css">
+    <script src="../js/includes/add_footer.js"></script>
+    <script src="../js/includes/add_header.js"></script>
+    <script src="../js/register/logout.js"></script>
+    <script src="../js/account/medic/retrieve-info.js"></script>
+    <script src="../js/account/medic/send-info.js"></script>
+
+</head>
+
+<body>
+    <div id="header-placeholder"></div> <!-- Placeholder for the header content -->
+
+    <main>
+        <form>
+            <h2>Account Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" >
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" >
+
+            <label for="licenseId">License ID:</label>
+            <input type="text" id="licenseId" name="licenseId" readonly>
+
+            <label for="specialization">Specialization:</label>
+            <input type="text" id="specialization" name="specialization" readonly>
+
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+
+            <input type="submit" value="Save Changes">
+        </form>
+
+    </main>
+
+    <div id="footer-placeholder"></div> <!-- Placeholder for the footer content -->
+
+</body>
+
+</html>

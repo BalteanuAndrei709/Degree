@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  
+  section {
+    width: 30.33%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    margin-top: 50px;
+  }
+  
+  .register-nurse {
+    background: #f44336;
+  }
+  
+  .register-patient {
+    background: #4caf50;
+  }
+  
+  .register-medic {
+    background: #2196f3;
+  }
+  
+  section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .register-nurse:hover {
+    background: #d32f2f;
+  }
+  
+  .register-patient:hover {
+    background: #388e3c;
+  }
+  
+  .register-medic:hover {
+    background: #1976d2;
+  }
+  

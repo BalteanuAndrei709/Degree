@@ -1,0 +1,90 @@
+/* Color palette */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+  }
+  
+  /* Style for the main content */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the appointment container */
+  #future-patient-appointments-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Style for the individual appointment */
+  .appointment {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 48%;
+  }
+  
+  /* Style for the appointment ID */
+  .appointment p:nth-child(1) {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the cancel button */
+  button {
+    background-color: var(--danger-color);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Icon styles */
+  i {
+    margin-right: 5px;
+  }
+  
+  /* Style for the ensured appointment */
+  .appointment .ensured {
+    color: var(--success-color);
+  }
+  
+  /* Style for the unensured appointment */
+  .appointment .unensured {
+    color: var(--danger-color);
+  }
+  
+  /* Style for the appointment date and time */
+  .appointment .datetime {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .appointment .datetime i {
+    margin-right: 5px;
+  }
+  
+  /* Animation for the appointment hover */
+  .appointment:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  

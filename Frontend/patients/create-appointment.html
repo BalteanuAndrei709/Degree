@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wellness Wave</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/include/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/include/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/patient/create-appointment.css">
+    <script src="../js/includes/add_footer.js"></script>
+    <script src="../js/includes/add_header.js"></script>
+    <script src="../js/register/logout.js"></script>  
+    <script src="../js/medics/get-medics-name.js"></script>
+    <script src="../js/medics/get-specialization.js"></script>
+    <script src="../js/patients/make-appointments.js"></script>
+
+
+</head>
+<body>
+    <div id="header-placeholder"></div> <!-- Placeholder for the header content -->
+
+    <main>
+      <div id="search-container">
+        <form id="search-available-form">
+          <h1>Locuri disponibile:</h1>
+          <div class="form-group">
+            <label for="day-from">Day From:</label>
+            <input type="date" id="day-from" name="day-from" required>
+          </div>
+          <div class="form-group">
+            <label for="day-to">Day To:</label>
+            <input type="date" id="day-to" name="day-to" required>
+          </div>
+          <div class="form-group">
+            <label for="medic-name">Medic Name:</label>
+            <select id="medic-name" name="medic-name">
+              <option value="" selected>Select Medic</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="specialization">Specializations:</label>
+            <select id="Specialization" name="specialization" required>
+              <option value="" disabled selected>Select Specialization</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <button type="submit">Cauta locuri disponibile</button>
+          </div>
+        </form>
+        <div id="search-results-container">
+          <table id="search-results-table">
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Hour</th>
+                <th>Medic</th>
+                <th>Specialization</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="ensured">
+          <label for="ensured">Asigurat:</label>
+          <select id="ensured">
+            <option value=""></option>
+            <option value="true">True</option>
+            <option value="false">False</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <button id="make-appointment" >Creeaza programarea</button>
+        </div>
+      </div>
+    </main>
+    
+
+    <div id="footer-placeholder"></div> 
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+/* Global styles */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #3c3c3c;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #3c3c3c;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3c3c3c;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="specialization"],
+  input[type="file"] {
+    padding: 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #3c3c3c;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+    margin-top: 8px;
+  }
+  
+  input[type="submit"],
+  button[type="submit"] {
+    background-color: #0f4c81;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  input[type="submit"]:hover,
+  button[type="submit"]:hover {
+    background-color: #1c77c3;
+  }
+  
+  /* Form styles */
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  span[id^="error"] {
+    color: #dc3545;
+    font-size: 14px;
+  }
+  
+  .upload-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #f2f2f2;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .upload-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-image: url('https://img.icons8.com/ios/50/000000/upload-2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .upload-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3c3c3c;
+  }
+  
+  /* Media queries */
+  
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+    
+    h2 {
+      font-size: 24px;
+    }
+    
+    label {
+      font-size: 16px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="specialization"],
+    input[type="file"] {
+      font-size: 14px;
+    }
+    
+    input[type="submit"],
+    button[type="submit"] {
+      font-size: 16px;
+      padding: 10px;
+    }
+    
+    .upload-text {
+      font-size: 16px;
+    }
+  }
+  

@@ -1,0 +1,48 @@
+/* Style for main tag */
+main {
+  font-family: Arial, sans-serif;
+  margin-top: 30px;
+}
+
+/* Style for links */
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.links-container a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.links-container a:hover {
+  color: #1abc9c;
+  transform: scale(1.1);
+}
+
+/* Style for icons */
+.links-container a:before {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+.links-container a[href="patient-future-appointments.html"]:before {
+  content: "\f073";
+}
+
+.links-container a[href="patient-past-appointment.html"]:before {
+  content: "\f272";
+}
+
+.links-container a[href="create-appointment.html"]:before {
+  content: "\f271";
+}

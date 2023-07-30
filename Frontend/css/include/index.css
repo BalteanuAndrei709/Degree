@@ -1,0 +1,51 @@
+@font-face{
+    font-family: "yourFontSemiBold";
+    src: url("../../fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf")
+}
+
+@font-face{
+    font-family: "yourFontBold";
+    src: url("../../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf")
+}
+
+@font-face{
+    font-family: "yourFontNormal";
+    src: url("../../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf")
+}
+/*
+this is where i write
+*/
+.main-page{
+    width: 100vw;
+    text-align: center;
+    font-family: yourFontBold;
+    background-image: url("../../images/background.jpg");
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.info {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: center;
+    font-family: yourFontNormal;
+    font-size: 21px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.article-title{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+.special {
+    display: flex;
+    flex-direction: column;
+}
+.special > span{
+    font-size: 25px;
+}
+

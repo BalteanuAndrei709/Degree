@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+    margin: 0;
+  }
+  
+  /* Main Styles */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #4a90e2;
+  }
+  
+  /* Appointment List Styles */
+  #medic-appointment-list {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .appointment {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+  }
+  
+  .appointment p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a90e2;
+  }
+  
+  .appointment button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .appointment button:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Appointment Icons Styles */
+  .appointment p:nth-child(2)::before {
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+    color: #4a90e2;
+  }
+  
+  .appointment p:nth-child(3)::before {
+    content: "\f2c2";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+    color: #4a90e2;
+  }
+  
+  .appointment p:nth-child(4)::before {
+    content: "\f0f1";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+    color: #4a90e2;
+  }
+  
+  .appointment p:nth-child(5)::before {
+    content: "\f0c0";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+    color: #4a90e2;
+  }
+  
+  .appointment p:nth-child(6)::before {
+    content: "\f073";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+    color: #4a90e2;
+  }
+  

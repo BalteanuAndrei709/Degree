@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wellness Wave</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/include/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/include/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/include/register-nurse.css">
+    <script src="../js/includes/add_footer.js"></script>
+    <script src="../js/includes/add_header.js"></script>
+    <script src="../js/register/logout.js"></script>
+    <script src="../js/register/register-nurse.js"></script>
+    <script src="../js/register/analyze-photo-nurse.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <div id="header-placeholder"></div> <!-- Placeholder for the header content -->
+
+    <main>
+        <br>
+        <form id="register-nurse-form" method="post">
+            <label for="socialId">Social ID:</label><br>
+            <input type="text" id="socialId" name="socialId" required><br><br>
+            <span id="errorSocialId"></span><br>
+
+            <label for="licenseId">Indicator parafa:</label><br>
+            <input type="text" id="licenseId" name="licenseId" required><br><br>
+            <span id="errorLicenseId"></span><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <span id="errorMail"></span><br>
+
+            <label for="specialization">Specializarea:</label><br>
+            <input type="specialization" id="specialization" name="specialization" required><br><br>
+            <span id="errorSpecialization"></span><br>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <span id="errorName"></span><br>
+
+            <label for="surname">Surname:</label><br>
+            <input type="text" id="surname" name="surname" required><br><br>
+            <span id="errorSurname"></span><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" required><br><br>
+            <span id="errorAge"></span><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label><br><br>
+
+            <label for="county">County:</label><br>
+            <input type="text" id="county" name="county" required><br><br>
+
+            <input type="submit" value="Register">
+        </form>
+        <br>
+        <div class="upload-container">
+            <span class="upload-icon"></span>
+            <p class="upload-text">Încarcă automat datele din buletinul tău</p>
+        </div>
+        <form id="analyze-photo-nurse-form">
+            <!-- Existing form fields (socialId, email, name, surname, age, gender, county) -->
+            <label for="fileInput">Încarcă fișier:</label>
+            <input type="file" id="nurse-photo" name="fileInput">
+            <br>
+            <button type="submit" id="analyze-photo-nurse">Analizează buletinul</button>
+        </form>
+        <br>
+    </main>
+
+
+    <div id="footer-placeholder"></div> <!-- Placeholder for the footer content -->
+
+</body>
+
+</html>

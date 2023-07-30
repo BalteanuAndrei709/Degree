@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wellness Wave</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/medic/start-consultation.css">
+    <link rel="stylesheet" type="text/css" href="../css/include/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/include/footer.css">
+    <script src="../js/includes/add_footer.js"></script>
+    <script src="../js/includes/add_header.js"></script>
+    <script src="../js/register/logout.js"></script>
+    <script src="../js/medics/medic-start-consultation.js"></script>
+    <script src="../js/medics/medic-end-consultation.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+    
+    <script src="../js/medics/add-analysis.js"></script>
+    <script src="../js/medics/medic-search-analysis.js"></script>
+    <style>
+        .category {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .analysis {
+            display: none;
+            margin-left: 20px;
+        }
+
+        .open {
+            display: flex;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div id="header-placeholder"></div> <!-- Placeholder for the header content -->
+
+    <main>
+        <br>
+        <form id="consultation-form">
+            <label for="name">Nume:</label>
+            <input type="text" id="name" name="name" autocomplete="off">
+            <br><br>
+            <label for="age">Varsta:</label>
+            <input type="text" id="age" name="age" autocomplete="off">
+            <br><br>
+            <label for="gender">Sex:</label>
+            <input type="text" id="gender" name="gender" autocomplete="off">
+            <br><br>
+            <label for="cnp">CNP:</label>
+            <input type="text" id="cnp" name="cnp" autocomplete="off">
+            <br><br>
+            <label for="county">Judet:</label>
+            <input type="text" id="county" name="county" autocomplete="off">
+            <br><br>
+            <label for="patientEmail">Emailul pacientului:</label>
+            <input type="text" id="patientEmail" name="patientEmail" autocomplete="off">
+            <br><br>
+
+            <label for="doctor">Medic:</label>
+            <input type="text" id="doctor" name="doctor" autocomplete="off">
+            <br><br>
+            <label for="medicEmail">Emailul medicului:</label>
+            <input type="text" id="medicEmail" name="medicEmail" autocomplete="off">
+            <br><br>
+            <label for="specialization">Specializarea:</label>
+            <input type="text" id="specialization" name="specialization" autocomplete="off">
+            <br><br>
+
+            <label for="date">Data consultatiei:</label>
+            <input type="text" id="date" name="date" autocomplete="off">
+            <br><br>
+            <label for="time">Ora consultatiei:</label>
+            <input type="text" id="time" name="time" autocomplete="off">
+            <br><br>
+
+            <label for="reason">Motiv programare medic:</label>
+            <textarea id="reason" name="reason"></textarea>
+            <br><br>
+            <label for="symptoms">Simptome:</label>
+            <textarea id="symptoms" name="symptoms"></textarea>
+            <br><br>
+            <label for="diagnosis">Diagnostic preventiv:</label>
+            <textarea id="diagnosis" name="diagnosis"></textarea>
+            <br><br>
+            <label for="recomandations">Recomandari:</label>
+            <textarea id="recomandations" name="recomandations"></textarea>
+            <br><br>
+
+            
+        </form>
+
+
+        <input type="text" id="search-analysis" placeholder="Search for an analysis...">
+
+        <div id="search-results"></div>
+
+        <div id="all-categories">
+            <h2>Categories</h2>
+
+
+        </div>
+
+        <div class="recommended-analyses-wrapper">
+            <h2>Recommended Analyses</h2>
+            <ul id="recommended-analyses">
+            </ul>
+        </div>
+
+
+        <button type="submit" class="btn">
+            <span class="icon"><i class="fas fa-check"></i></span>
+            Trimite
+        </button>
+
+    </main>
+    <br>
+    <div id="footer-placeholder"></div> <!-- Placeholder for the footer content -->
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wellness Wave</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+    <link rel="stylesheet" type="text/css" href="../css/include/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/include/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/include/account.css">
+    <script src="../js/includes/add_footer.js"></script>
+    <script src="../js/includes/add_header.js"></script>
+    <script src="../js/register/logout.js"></script>
+    <script src="../js/account/patient/retrieve-info.js"></script>
+    <script src="../js/account/patient/send-info.js"></script>
+
+</head>
+
+<body>
+    <div id="header-placeholder"></div> <!-- Placeholder for the header content -->
+
+    <main>
+        <form>
+            <h2>Account Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" >
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" >
+
+            <label for="socialId">Social ID:</label>
+            <input type="text" id="socialId" name="socialId" readonly>
+
+
+            <label for="county">County:</label>
+            <select id="county" name="county">
+                <option value="none">Select your county</option>
+                <option value="Alba">Alba</option>
+                <option value="Arad">Arad</option>
+                <option value="Arges">Arges</option>
+                <option value="Bacau">Bacau</option>
+                <option value="Bihor">Bihor</option>
+                <option value="Bistrita Nasaud">Bistrita Nasaud</option>
+                <option value="Botosani">Botosani</option>
+                <option value="Braila">Braila</option>
+                <option value="Brasov">Brasov</option>
+                <option value="Bucuresti">Bucuresti</option>
+                <option value="Buzau">Buzau</option>
+                <option value="Calarasi">Calarasi</option>
+                <option value="Caras-Severin">Caras-Severin</option>
+                <option value="Cluj">Cluj</option>
+                <option value="Constanta">Constanta</option>
+                <option value="Covasna">Covasna</option>
+                <option value="Dambovita">Dambovita</option>
+                <option value="Dolj">Dolj</option>
+                <option value="Galati">Galati</option>
+                <option value="Giurgiu">Giurgiu</option>
+                <option value="Gorj">Gorj</option>
+                <option value="Harghita">Harghita</option>
+                <option value="Hunedoara">Hunedoara</option>
+                <option value="Ialomita">Ialomita</option>
+                <option value="Iasi">Iasi</option>
+                <option value="Ilfov">Ilfov</option>
+                <option value="Maramures">Maramures</option>
+                <option value="Mehedinti">Mehedinti</option>
+                <option value="Mures">Mures</option>
+                <option value="Neamt">Neamt</option>
+                <option value="Olt">Olt</option>
+                <option value="Prahova">Prahova</option>
+                <option value="Salaj">Salaj</option>
+                <option value="Satu Mare">Satu Mare</option>
+                <option value="Sibiu">Sibiu</option>
+                <option value="Suceava">Suceava</option>
+                <option value="Teleorman">Teleorman</option>
+                <option value="Timis">Timis</option>
+                <option value="Tulcea">Tulcea</option>
+                <option value="Valcea">Valcea</option>
+                <option value="Vaslui">Vaslui</option>
+                <option value="Vrancea">Vrancea</option>
+            </select>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+
+            <input type="submit" value="Save Changes">
+        </form>
+
+    </main>
+
+    <div id="footer-placeholder"></div> <!-- Placeholder for the footer content -->
+
+</body>
+
+</html>
