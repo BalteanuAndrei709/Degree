@@ -1,0 +1,278 @@
+[
+  {
+    "County": "Alba",
+    "Prefix": "AX"
+  },
+  {
+    "County": "Teleorman",
+    "Prefix": "TR"
+  },
+  {
+    "County": "Arad",
+    "Prefix": "AR"
+  },
+  {
+    "County": "Arad",
+    "Prefix": "ZR"
+  },
+  {
+    "County": "Bacau",
+    "Prefix": "XC"
+  },
+  {
+    "County": "Bacau",
+    "Prefix": "ZC"
+  },
+  {
+    "County": "Maramures",
+    "Prefix": "MM"
+  },
+  {
+    "County": "Maramures",
+    "Prefix": "XM"
+  },
+  {
+    "County": "Bistrita Nasaud",
+    "Prefix": "XB"
+  },
+  {
+    "County": "Botosani",
+    "Prefix": "XT"
+  },
+  {
+    "County": "Brasov",
+    "Prefix": "BV"
+  },
+  {
+    "County": "Brasov",
+    "Prefix": "ZV"
+  },
+  {
+    "County": "Braila",
+    "Prefix": "XR"
+  },
+  {
+    "County": "Bucuresti",
+    "Prefix": "DP"
+  },
+  {
+    "County": "Bucuresti",
+    "Prefix": "DR"
+  },
+  {
+    "County": "Bucuresti",
+    "Prefix": "DT"
+  },
+  {
+    "County": "Bucuresti",
+    "Prefix": "RD"
+  },
+  {
+    "County": "Bucuresti",
+    "Prefix": "RR"
+  },
+  {
+    "County": "Bucuresti",
+    "Prefix": "RT"
+  },
+  {
+    "County": "Bucuresti",
+    "Prefix": "RX"
+  },
+  {
+    "County": "Bucuresti",
+    "Prefix": "RK"
+  },
+  {
+    "County": "Bucuresti",
+    "Prefix": "RZ*"
+  },
+  {
+    "County": "Ilfov",
+    "Prefix": "IF"
+  },
+  {
+    "County": "Buzau",
+    "Prefix": "XZ"
+  },
+  {
+    "County": "Calarasi",
+    "Prefix": "KL"
+  },
+  {
+    "County": "Cluj",
+    "Prefix": "KX"
+  },
+  {
+    "County": "Cluj",
+    "Prefix": "CJ"
+  },
+  {
+    "County": "Constanta",
+    "Prefix": "KT"
+  },
+  {
+    "County": "Constanta",
+    "Prefix": "KZ"
+  },
+  {
+    "County": "Dolj",
+    "Prefix": "DX"
+  },
+  {
+    "County": "Dolj",
+    "Prefix": "DZ"
+  },
+  {
+    "County": "Hunedoara",
+    "Prefix": "HD"
+  },
+  {
+    "County": "Hunedoara",
+    "Prefix": "XD"
+  },
+  {
+    "County": "Vrancea",
+    "Prefix": "VN"
+  },
+  {
+    "County": "Galati",
+    "Prefix": "GL"
+  },
+  {
+    "County": "Galati",
+    "Prefix": "ZL"
+  },
+  {
+    "County": "Giurgiu",
+    "Prefix": "GG"
+  },
+  {
+    "County": "Iasi",
+    "Prefix": "MX"
+  },
+  {
+    "County": "Iasi",
+    "Prefix": "MZ"
+  },
+  {
+    "County": "Iasi",
+    "Prefix": "IZ"
+  },
+  {
+    "County": "Mehedinti",
+    "Prefix": "MH"
+  },
+  {
+    "County": "Harghita",
+    "Prefix": "HR"
+  },
+  {
+    "County": "Bihor",
+    "Prefix": "XH"
+  },
+  {
+    "County": "Bihor",
+    "Prefix": "ZH"
+  },
+  {
+    "County": "Neamt",
+    "Prefix": "NT"
+  },
+  {
+    "County": "Arges",
+    "Prefix": "AS"
+  },
+  {
+    "County": "Arges",
+    "Prefix": "AZ"
+  },
+  {
+    "County": "Prahova",
+    "Prefix": "PH"
+  },
+  {
+    "County": "Prahova",
+    "Prefix": "PX"
+  },
+  {
+    "County": "Caras-Severin",
+    "Prefix": "KS"
+  },
+  {
+    "County": "Valcea",
+    "Prefix": "VX"
+  },
+  {
+    "County": "Satu Mare",
+    "Prefix": "SM"
+  },
+  {
+    "County": "Covasna",
+    "Prefix": "KV"
+  },
+  {
+    "County": "Sibiu",
+    "Prefix": "SB"
+  },
+  {
+    "County": "Olt",
+    "Prefix": "OT"
+  },
+  {
+    "County": "Ialomita",
+    "Prefix": "SZ"
+  },
+  {
+    "County": "Suceava",
+    "Prefix": "SV"
+  },
+  {
+    "County": "Suceava",
+    "Prefix": "XV"
+  },
+  {
+    "County": "Timis",
+    "Prefix": "TM"
+  },
+  {
+    "County": "Timis",
+    "Prefix": "TZ"
+  },
+  {
+    "County": "Dambovita",
+    "Prefix": "DD"
+  },
+  {
+    "County": "Dambovita",
+    "Prefix": "ZD"
+  },
+  {
+    "County": "Gorj",
+    "Prefix": "GZ"
+  },
+  {
+    "County": "Mures",
+    "Prefix": "ZS"
+  },
+  {
+    "County": "Mures",
+    "Prefix": "MS"
+  },
+  {
+    "County": "Tulcea",
+    "Prefix": "TC"
+  },
+  {
+    "County": "Vaslui",
+    "Prefix": "VS"
+  },
+  {
+    "County": "Vaslui",
+    "Prefix": "XS"
+  },
+  {
+    "County": "Salaj",
+    "Prefix": "SX"
+  }
+]
